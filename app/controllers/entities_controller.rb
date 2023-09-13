@@ -1,4 +1,4 @@
-class EntititesController < ApplicationController
+class EntitiesController < ApplicationController
     def index
       @entities = Entity.where(groups_id: params[:group_id]).order(created_at: :desc)
       @group = Group.where(id: params[:group_id]).take
@@ -6,14 +6,14 @@ class EntititesController < ApplicationController
   
     def new; end
   
-    def create
-      @entity = current_user.entities.new(entity_params)
-      if @entity.save
-        redirect_to group_entities_path(group_id: entity_params[:groups_id]), notice: 'Entity created successfully'
-      else
-        redirect_to new_group_entity_path, alert: 'Oops something went wrong'
+    def create_entity
+        @entity = current_user.entities.new(entity_params)
+        if @entity.save
+          redirect_to group_entities_path(group_id: entity_params[:groups_id]), notice: 'Entity created successfully'
+        else
+          redirect_to new_group_entity_path, alert: 'Oops, something went wrong'
+        end
       end
-    end
   
     private
   

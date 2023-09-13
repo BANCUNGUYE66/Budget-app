@@ -6,11 +6,11 @@ class GroupsController < ApplicationController
     def new; end
   
     def create
-      @category = current_user.groups.new(category_params)
-      if @category.save
-        redirect_to groups_path, notice: 'category created successfuly'
+      @group = current_user.groups.new(group_params)
+      if @group.save
+        redirect_to groups_path, notice: 'Category created successfully'
       else
-        redirect_to new_group_path, alert: 'Oops something went wrong'
+        redirect_to new_group_path, alert: 'Oops, something went wrong'
       end
     end
   
@@ -18,7 +18,8 @@ class GroupsController < ApplicationController
   
     private
   
-    def category_params
-      params.required(:group).permit(:name, :icon)
+    def group_params
+      params.require(:group).permit(:name, :icon)
     end
   end
+  
