@@ -20,9 +20,9 @@
 
 ## 🚀 Live Demo <a name="live-demo" ></a>
 
-<!-- - [Live Demo](https://buddy-4izw.onrender.com) -->
+<!-- - [Live Demo]() -->
 
-<!-- - [Presentation video](https://www.loom.com/share/57161cf3b7ed4fb08582803c047dccd4) -->
+- [Presentation video](https://www.loom.com/share/a8c258f3a9df473c8ff41e6173bfb3be)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
