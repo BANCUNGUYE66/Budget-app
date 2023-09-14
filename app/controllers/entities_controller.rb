@@ -6,7 +6,7 @@ class EntitiesController < ApplicationController
   
     def new; end
   
-    def create_entity
+    def create
         @entity = current_user.entities.new(entity_params)
         if @entity.save
           redirect_to group_entities_path(group_id: entity_params[:groups_id]), notice: 'Entity created successfully'

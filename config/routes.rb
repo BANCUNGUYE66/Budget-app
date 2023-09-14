@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   devise_for :users
   resources :groups, only: [:index, :new, :create] do
     resources :entities, only: [:index, :new, :create]
-    post 'create_entity', on: :member
+    post 'create', on: :member
   end
 
   authenticated :user do

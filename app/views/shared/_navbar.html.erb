@@ -13,7 +13,7 @@
                         <% elsif request.path == group_entities_path %>
                             <%= link_to image_tag('back.png'), groups_path, id: "back-icon" %>
                         <% elsif request.path == new_group_entity_path %>
-                            <%= link_to image_tag('back.png'), group_expenses_path, id: "back-icon" %>
+                            <%= link_to image_tag('back.png'), group_entities_path, id: "back-icon" %>
                         <% else %>
                             <%= link_to image_tag('back.png'), :back, id: "back-icon" %>
                         <% end %>
