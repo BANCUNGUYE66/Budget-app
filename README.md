@@ -1,5 +1,5 @@
 # Budget App
-![ERD ==> DATA MODEL](image.png)
+
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
