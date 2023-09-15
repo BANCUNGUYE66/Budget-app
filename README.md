@@ -1,5 +1,5 @@
 # Budget App
-
+![ERD ==> DATA MODEL](image.png)
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
@@ -12,7 +12,7 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Usage ](#usage-)
+    - [Usage ](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Author ](#-author-)
@@ -31,6 +31,16 @@
 - Ruby
 - Ruby on Rails
 - RSpec, PostgreSQL
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>RUBY</li>
+    <li>RAILS</li>
+  </ul>
+</details>
 
 
 ### Key Features <a name="key-features"></a>
@@ -80,7 +90,7 @@ Install this project with:
   bundle install (install all dependencies)
 ```
 
-### Usage
+### Usage <a name="usage"></a>
 
 To run the project, execute the following command:
 
@@ -102,6 +112,18 @@ To run the project, execute the following command:
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployment
+
+You can deploy this project using:
+
+```
+  N/A
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## 👥 Authors <a name="authors"></a>
 
