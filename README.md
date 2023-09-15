@@ -17,7 +17,6 @@
     - [Deployment](#deployment)
   - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgements](#acknowledgements)
   - [📝 License ](#-license-)
@@ -109,7 +108,7 @@ To run the project, execute the following command:
 👤 **Aimable BANCUNGUYE**
 
 - GitHub: [@githubhandle](https://github.com/bancunguye66)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bancunguye-Aimable/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aimable-bancunguye/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,13 +119,6 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Tafloninno/react-group-project/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
