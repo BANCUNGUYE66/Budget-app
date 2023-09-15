@@ -14,7 +14,7 @@
  *= require_self
  */
 
- * {
+* {
   padding: 0;
   margin: 0;
   font-family: "Proxima Nova Bold", sans-serif;
@@ -124,7 +124,7 @@ header nav ul li button {
 
 #login_page-container #login-button {
   text-align: center;
-  background-color: #3778c2;;
+  background-color: #3778c2;
   color: oldlace;
 }
 
