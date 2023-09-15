@@ -1,18 +1,18 @@
 databases:
-  - name: micronaut
-    databaseName: micronaut_qzj2
-    user: micronaut_qzj2_user
+  - name: microverse
+    databaseName: microverse_oet0
+    user: microverse_oet0_user
 
 services:
   - type: web
-    name: ash
+    name: inno
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: micronaut
+          name: microverse_oet0
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
