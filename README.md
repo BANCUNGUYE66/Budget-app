@@ -113,13 +113,11 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
 You can deploy this project using:
 
-```
-  N/A
-```
+- render
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
