@@ -1,25 +1,19 @@
-# SQLite. Versions 3.8.0 and up are supported.
-#   gem install sqlite3
-#
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem "sqlite3"
-#
 default: &default
   adapter: postgresql
   encoding: unicode
   username: postgres
   password: 1234567890
-  host: localhost # Update with your PostgreSQL host
-  port: 5433 # Update with your PostgreSQL port if needed
+  host: localhost
+  port: 5433
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
-  database: db/development
+  database: budget_app_development
 
 test:
   <<: *default
-  database: db/test
+  database: budget_app_test
 
 production:
   <<: *default

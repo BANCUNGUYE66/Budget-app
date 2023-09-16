@@ -10,7 +10,7 @@
                         </h3>
                     </div>
                     <h3>
-                        $<%= Entity.where(groups_id: category.id).sum(:amount) %>
+                        $<%= Entity.where(group_id: category.id).sum(:amount) %>
                     </h3>
                 </li>
             <% end %>
