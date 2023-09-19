@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo" ></a>
 
-<!-- - [Live Demo]() -->
+- [Live Demo](https://budget-app-zj69.onrender.com) 
 
 - [Presentation video](https://www.loom.com/share/a8c258f3a9df473c8ff41e6173bfb3be)
 
