@@ -11,7 +11,7 @@ default: &default
   host: localhost
   username: postgres
   password: 1234567890
-  port: 5433
+  port: 5432
 
 development:
   <<: *default
@@ -19,7 +19,7 @@ development:
   host: localhost
   username: postgres
   password: 1234567890
-  port: 5433
+  port: 5432
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -31,7 +31,7 @@ test:
   host: localhost
   username: postgres
   password: 1234567890
-  port: 5433
+  port: 5432
 
 production:
   <<: *default
