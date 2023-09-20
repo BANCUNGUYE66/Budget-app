@@ -8,11 +8,11 @@ RSpec.describe 'Users', type: :feature do
   describe 'sign in page' do
     scenario 'should have a sign in page' do
       visit new_user_session_path
-      expect(page).to have_content('Log in')
+      expect(page).to have_content('LOG IN')
     end
     scenario 'should have a sign in button' do
       visit new_user_session_path
-      expect(page).to have_content('Log in')
+      expect(page).to have_content('LOG IN')
     end
     scenario 'should have a sign up link' do
       visit new_user_session_path

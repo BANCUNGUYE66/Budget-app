@@ -31,7 +31,7 @@ test:
   host: localhost
   username: postgres
   password: 1234567890
-  port: 5432
+  port: 5433
 
 production:
   <<: *default
