@@ -42,7 +42,7 @@ RSpec.describe 'Groups', type: :feature do
       visit new_group_path
       fill_in 'Name', with: 'Test group'
       click_button 'Save'
-      expect(page).to have_content('Choose Image:')
+      expect(page).to have_content('No icon available')
     end
   end
 end
